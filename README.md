@@ -104,17 +104,6 @@ Language model-based autocomplete system built on neural sequence modeling appro
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=SaribAzim&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff"/>
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaribAzim&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff"/>
-
-</div>
-
----
-
 ## Currently
 
 - 📖 Reading papers in **model calibration, interpretability, and vision transformers**
