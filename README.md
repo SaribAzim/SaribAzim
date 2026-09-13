@@ -5,23 +5,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+trustworthy+AI+systems;Computer+Vision+%7C+Interpretability+%7C+Calibration;Going+beyond+benchmark+accuracy)](https://git.io/typing-svg)
 
 </div>
-
----
-
-## About Me
-
-```python
-sarib = {
-    "degree"    : "BS Artificial Intelligence — 3rd Year",
-    "location"  : "Islamabad, Pakistan",
-    "research"  : ["Model Interpretability", "Calibration", "Computer Vision", "NLP"],
-    "belief"    : "Accuracy tells you what a model gets right.",
-    "mission"   : "Calibration and interpretability tell you whether to trust it.",
-}
-```
-
-I study the gap between what AI models claim and what they actually deliver. My projects go beyond training and evaluation — I investigate *why* models predict, *where* they look, and *whether their confidence can be trusted.*
-
 ---
 
 ## Research Projects
@@ -95,20 +78,6 @@ Language model-based autocomplete system built on neural sequence modeling appro
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
-
-**Methods & Techniques:**
-- Grad-CAM · Attention Rollout · Saliency Mapping
-- Temperature Scaling · ECE/MCE · Reliability Diagrams
-- BiLSTM · Multi-head Attention · Transformer Architectures
-- ResNet · EfficientNet · Vision Transformer (ViT)
-
----
-
-## Currently
-
-- 📖 Reading papers in **model calibration, interpretability, and vision transformers**
-- 🔬 Building projects that study **model trustworthiness beyond accuracy**
-- 🎯 Goal: **AI research that makes deployed models reliable and explainable**
 
 ---
 
