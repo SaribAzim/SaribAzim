@@ -5,7 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+trustworthy+AI+systems;Computer+Vision+%7C+Interpretability+%7C+Calibration;Going+beyond+benchmark+accuracy)](https://git.io/typing-svg)
 
 </div>
----
+
 
 ## Research Projects
 
@@ -78,10 +78,6 @@ Language model-based autocomplete system built on neural sequence modeling appro
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
-
----
-
-## 🎧 Currently Listening
 
 <div align="center">
 
