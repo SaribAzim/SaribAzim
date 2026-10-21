@@ -53,12 +53,14 @@ Sequence classification using bidirectional LSTM with attention for multilingual
 </td>
 <td width="50%">
 
-### Auto-Complete System — NLP
-[![Repo](https://img.shields.io/badge/GitHub-AutoComplete--NLP-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/Auto-Complete-System-NLP-)
+### Quantization Fidelity Study
+[![Repo](https://img.shields.io/badge/GitHub-Quantization--Fidelity--Study-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/quantization-fidelity-study)
 
-Language model-based autocomplete system built on neural sequence modeling approaches.
+Systematic evaluation of neural network quantization methods, investigating the trade-off between model precision, quantization error, and predictive performance.
 
-`NLP` `Language Modeling` `TypeScript`
+**Key finding:** Quantization fidelity depends on weight rounding, quantization granularity, and calibration data — not just bit-width.
+
+`PyTorch` `Quantization` `LLMs` `Model Evaluation`
 
 </td>
 </tr>
