@@ -1,72 +1,85 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Sarib%20Azim&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Artificial%20Intelligence%20Researcher%20%7C%20Computer%20Vision%20%7C%20Model%20Interpretability&descAlignY=60&descSize=16&descColor=8b949e"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0d1117,50:58a6ff,100:0d1117" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+trustworthy+AI+systems;Computer+Vision+%7C+Interpretability+%7C+Calibration;Going+beyond+benchmark+accuracy)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text=Sarib%20Azim&fontSize=54&fontColor=58a6ff&fontAlignY=40&animation=fadeIn&desc=AI%20Engineer%20and%20Researcher%20%C2%B7%20Computer%20Vision%20%C2%B7%20Model%20Interpretability&descAlignY=74&descSize=15&descColor=8b949e"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+production+ready+AI+systems;LLMs+%C2%B7+Quantization+%C2%B7+RAG+%C2%B7+Deployment;Speech+%C2%B7+Vision+%C2%B7+NLP+%C2%B7+Time+Series;Taking+models+from+research+to+production)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0d1117,50:58a6ff,100:0d1117" width="100%"/>
 
 </div>
 
+<br/>
 
 ## Research Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### Neural Network Calibration Study
-[![Repo](https://img.shields.io/badge/GitHub-Neural--Network--Calibration-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/Neural-Network-Calibration)
+### Quantization Fidelity Study
+<a href="https://github.com/SaribAzim/quantization-fidelity-study"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=58a6ff" alt="Repository"/></a>
 
-Post-hoc calibration analysis of ResNet-50 on CIFAR-10. Measured systematic overconfidence using **ECE** and **MCE**. Applied temperature scaling — a single scalar T — to reduce ECE by **67%** without retraining.
+Systematic evaluation of neural network quantization methods, investigating the trade-off between model precision, quantization error, and predictive performance.
 
-**Key finding:** High top-1 accuracy and good calibration are independent properties. Most models only optimise for one.
+**Key finding**<br/>
+<sub>Quantization fidelity depends on weight rounding, quantization granularity, and calibration data, not just bit-width.</sub>
 
-`PyTorch` `Calibration` `ResNet-50` `Temperature Scaling`
-
-Based on **Guo et al. (2017), ICML**
+<img src="https://img.shields.io/badge/PyTorch-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Quantization-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/LLMs-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Model%20Evaluation-161b22?style=flat-square"/>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### CNN vs ViT Interpretability Study
-[![Repo](https://img.shields.io/badge/GitHub-CNN--ViT--Interpretability-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/cnn-vit-interpretability)
+### voiceMonitor · INFERENCE Lab
+<a href="https://github.com/Inference-LAB/voiceMonitor"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=58a6ff" alt="Repository"/></a> <a href="https://inference-lab.org/people/sarib-azim"><img src="https://img.shields.io/badge/Lab%20Note-0d1117?style=flat-square&logo=readthedocs&logoColor=58a6ff" alt="Lab Note"/></a>
 
-Comparative saliency analysis across ResNet-50, EfficientNet-B0, and ViT-B/16 on ImageNette. Implemented Grad-CAM for CNNs and Grad-CAM with patch reshape transform for ViT.
+Core Engineer on an open source vocal fatigue monitoring library (INFERENCE Lab Engineering Fellowship, Cohort 01). Designed a **vocal load impulse response model** adapted from the Banister sports science framework, with EMA smoothing, acoustic feature extraction (jitter, shimmer, HNR, CPPS), and personal baseline calibration. Shipped to **v1.1.0** with **93%** test coverage and CI.
 
-**Key finding:** CNNs focus on local discriminative patches. ViT attends globally — even when all three models agree on the correct label.
+**Core idea**<br/>
+<sub>Vocal fatigue can be modelled like training load: each speaking session adds strain that decays over time, giving a recovery estimate instead of a single snapshot.</sub>
 
-`PyTorch` `Grad-CAM` `ViT` `Interpretability`
+<img src="https://img.shields.io/badge/Python-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Parselmouth%20%2F%20Praat-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Signal%20Processing-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Time%20Series-161b22?style=flat-square"/>
 
-Based on **Selvaraju et al. (2017), ICCV**
+<sub>Published as an Engineering Journal entry on inference-lab.org</sub>
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### Attention-Based BiLSTM — Fake News Detection
-[![Repo](https://img.shields.io/badge/GitHub-BiLSTM--Fake--News-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/Attention-Based-BiLSTM-for-Multilingual-Fake-News-Detection)
+### Neural Network Calibration Study
+<a href="https://github.com/SaribAzim/Neural-Network-Calibration"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=58a6ff" alt="Repository"/></a>
 
-Sequence classification using bidirectional LSTM with attention for multilingual fake news detection.
+Post-hoc calibration analysis of ResNet-50 on CIFAR-10. Measured systematic overconfidence using **ECE** and **MCE**. Applied temperature scaling, a single scalar T, to reduce ECE by **67%** without retraining.
 
-`PyTorch` `NLP` `BiLSTM` `Attention`
+**Key finding**<br/>
+<sub>High top-1 accuracy and good calibration are independent properties. Most models only optimise for one.</sub>
+
+<img src="https://img.shields.io/badge/PyTorch-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Calibration-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/ResNet--50-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Temperature%20Scaling-161b22?style=flat-square"/>
+
+<sub>Reference: Guo et al. (2017), ICML</sub>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### Quantization Fidelity Study
-[![Repo](https://img.shields.io/badge/GitHub-Quantization--Fidelity--Study-58a6ff?style=flat&logo=github)](https://github.com/SaribAzim/quantization-fidelity-study)
+### CNN vs ViT Interpretability Study
+<a href="https://github.com/SaribAzim/cnn-vit-interpretability"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=58a6ff" alt="Repository"/></a>
 
-Systematic evaluation of neural network quantization methods, investigating the trade-off between model precision, quantization error, and predictive performance.
+Comparative saliency analysis across ResNet-50, EfficientNet-B0, and ViT-B/16 on ImageNette. Implemented Grad-CAM for CNNs and Grad-CAM with a patch reshape transform for ViT.
 
-**Key finding:** Quantization fidelity depends on weight rounding, quantization granularity, and calibration data — not just bit-width.
+**Key finding**<br/>
+<sub>CNNs focus on local discriminative patches. ViT attends globally, even when all three models agree on the correct label.</sub>
 
-`PyTorch` `Quantization` `LLMs` `Model Evaluation`
+<img src="https://img.shields.io/badge/PyTorch-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Grad--CAM-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/ViT-161b22?style=flat-square"/> <img src="https://img.shields.io/badge/Interpretability-161b22?style=flat-square"/>
+
+<sub>Reference: Selvaraju et al. (2017), ICCV</sub>
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
 ## Technical Stack
 
@@ -87,7 +100,7 @@ Systematic evaluation of neural network quantization methods, investigating the 
 
 </div>
 
----
+<br/>
 
 ## Connect
 
@@ -96,8 +109,8 @@ Systematic evaluation of neural network quantization methods, investigating the 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarib%20Azim-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarib-azim-90aa56295/)
 [![GitHub](https://img.shields.io/badge/GitHub-SaribAzim-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SaribAzim)
 
-</div>
+<br/><br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0d1117,50:58a6ff,100:0d1117" width="100%"/>
+
 </div>
