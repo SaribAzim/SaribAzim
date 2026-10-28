@@ -95,9 +95,6 @@ Comparative saliency analysis across ResNet-50, EfficientNet-B0, and ViT-B/16 on
 </div>
 
 <div align="center">
-
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31lztsnzj2e3bndtews7x2texqmu&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
-
 </div>
 
 <br/>
